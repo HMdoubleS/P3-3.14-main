@@ -97,9 +97,8 @@
 
     /*-- Cards--*/
     .course {
-        // display: flex;
         margin: 1.2%;
-        // flex-direction: column;
+        
         &__dishes {
             display: flex;
             flex-direction: column;
@@ -114,7 +113,6 @@
             border-radius: 15px;
             width: 80%;
             margin: 0 auto;
-            // margin-right: 1%;
             background-color: #fff;
             
             height: 80px;
@@ -252,18 +250,5 @@
       
     #card-9 { 
         animation-delay: 0.9s;     
-    }
-
-
-
-    @media screen and (min-width: 700px ) {
-        .course {
-    
-            &__dishes {
-                display: flex;
-                flex-direction: row;
-                gap: 15px;
-            }
-        }
     }
 }

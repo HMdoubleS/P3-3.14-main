@@ -10,8 +10,7 @@
   color: black;
   position: fixed;
   z-index: 20;
-  -webkit-animation: disappear 0.5s 3s ease-in forwards;
-          animation: disappear 0.5s 3s ease-in forwards;
+  animation: disappear 0.5s 3s ease-in forwards;
 }
 .loader .loader i {
   width: 70vw;
@@ -20,56 +19,28 @@
 }
 .loader .fa-wine-glass {
   font-size: 5rem;
-  -webkit-animation: foodmvt 2s ease-in;
-          animation: foodmvt 2s ease-in;
+  animation: foodmvt 2s ease-in;
   color: #9356DC;
 }
 .loader .fa-hamburger {
   font-size: 5rem;
-  -webkit-animation: foodmvt 2s 150ms ease-in;
-          animation: foodmvt 2s 150ms ease-in;
+  animation: foodmvt 2s 150ms ease-in;
   color: #FF79DA;
 }
 .loader .fa-utensils {
   font-size: 5rem;
-  -webkit-animation: foodmvt 2s 200ms ease-in;
-          animation: foodmvt 2s 200ms ease-in;
+  animation: foodmvt 2s 200ms ease-in;
   color: #99E2D0;
 }
 .loader .fa-carrot {
   font-size: 5rem;
-  -webkit-animation: foodmvt 2s 250ms ease-in;
-          animation: foodmvt 2s 250ms ease-in;
+  animation: foodmvt 2s 250ms ease-in;
   color: #FF79DA;
 }
 .loader .fa-glass-cheers {
   font-size: 5rem;
-  -webkit-animation: foodmvt 2s 300ms ease-in;
-          animation: foodmvt 2s 300ms ease-in;
+  animation: foodmvt 2s 300ms ease-in;
   color: #9356DC;
-}
-@-webkit-keyframes foodmvt {
-  5% {
-    transform: translateX(-300%);
-  }
-  20% {
-    opacity: 1;
-    transform: scale(0);
-    transform: translateX(100%);
-  }
-  25% {
-    transform: translateX(-5%);
-    transform: scale(0.8, 1.2);
-  }
-  30% {
-    transform: translateX(0%);
-  }
-  60% {
-    transform: translateY(40%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
 }
 @keyframes foodmvt {
   5% {
@@ -92,20 +63,6 @@
   }
   100% {
     transform: translateY(0%);
-  }
-}
-@-webkit-keyframes disappear {
-  0% {
-    opacity: 1;
-    z-index: 20;
-  }
-  95% {
-    opacity: 0.9;
-    z-index: -1;
-  }
-  100% {
-    z-index: -20;
-    opacity: 0;
   }
 }
 @keyframes disappear {
@@ -134,8 +91,7 @@
     color: black;
     position: fixed;
     z-index: 20;
-    -webkit-animation: disappear 0.5s 3s ease-in forwards;
-            animation: disappear 0.5s 3s ease-in forwards;
+    animation: disappear 0.5s 3s ease-in forwards;
   }
   .loader .loader i {
     width: 35vw;
@@ -144,56 +100,28 @@
   }
   .loader .fa-wine-glass {
     font-size: 3.5rem;
-    -webkit-animation: foodmvt 3s ease-in;
-            animation: foodmvt 3s ease-in;
+    animation: foodmvt 3s ease-in;
     color: #9356DC;
   }
   .loader .fa-hamburger {
     font-size: 3.5rem;
-    -webkit-animation: foodmvt 3s 150ms ease-in;
-            animation: foodmvt 3s 150ms ease-in;
+    animation: foodmvt 3s 150ms ease-in;
     color: #FF79DA;
   }
   .loader .fa-utensils {
     font-size: 3.5rem;
-    -webkit-animation: foodmvt 3s 200ms ease-in;
-            animation: foodmvt 3s 200ms ease-in;
+    animation: foodmvt 3s 200ms ease-in;
     color: #99E2D0;
   }
   .loader .fa-carrot {
     font-size: 3.5rem;
-    -webkit-animation: foodmvt 3s 250ms ease-in;
-            animation: foodmvt 3s 250ms ease-in;
+    animation: foodmvt 3s 250ms ease-in;
     color: #FF79DA;
   }
   .loader .fa-glass-cheers {
     font-size: 3.5rem;
-    -webkit-animation: foodmvt 3s 300ms ease-in;
-            animation: foodmvt 3s 300ms ease-in;
+    animation: foodmvt 3s 300ms ease-in;
     color: #9356DC;
-  }
-  @-webkit-keyframes foodmvt {
-    5% {
-      transform: translateX(-300%);
-    }
-    20% {
-      opacity: 1;
-      transform: scale(0);
-      transform: translateX(100%);
-    }
-    25% {
-      transform: translateX(-5%);
-      transform: scale(0.8, 1.2);
-    }
-    30% {
-      transform: translateX(0%);
-    }
-    60% {
-      transform: translateY(40%);
-    }
-    100% {
-      transform: translateY(0%);
-    }
   }
   @keyframes foodmvt {
     5% {
@@ -218,20 +146,6 @@
       transform: translateY(0%);
     }
   }
-  @-webkit-keyframes disappear {
-    0% {
-      opacity: 1;
-      z-index: 20;
-    }
-    95% {
-      opacity: 0.9;
-      z-index: -1;
-    }
-    100% {
-      z-index: -20;
-      opacity: 0;
-    }
-  }
   @keyframes disappear {
     0% {
       opacity: 1;
@@ -247,14 +161,6 @@
     }
   }
 }
-@-webkit-keyframes clockwise {
-  0% {
-    transform: rotate(0turn);
-  }
-  100% {
-    transform: rotate(2turn);
-  }
-}
 @keyframes clockwise {
   0% {
     transform: rotate(0turn);
@@ -263,30 +169,12 @@
     transform: rotate(2turn);
   }
 }
-@-webkit-keyframes counter-clock {
-  0% {
-    transform: rotate(0turn);
-  }
-  100% {
-    transform: rotate(-2turn);
-  }
-}
 @keyframes counter-clock {
   0% {
     transform: rotate(0turn);
   }
   100% {
     transform: rotate(-2turn);
-  }
-}
-@-webkit-keyframes appear {
-  0% {
-    transform: translateY(50%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
   }
 }
 @keyframes appear {
@@ -344,252 +232,52 @@ i {
   margin-right: 10px;
 }
 
-/*--PHONE LAYOUT--*/
-@media screen and (max-width: 767px) {
-  .header__logo {
-    height: 55px;
-    width: 50%;
-  }
-  /*-- BOOKING--*/
-  .booking__wrapper {
-    flex-direction: column;
-  }
-  .booking__info {
-    margin-left: 30px;
-  }
-  /*-- EXPLANATION--*/
-  .explanation {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .explanation__wrap {
-    display: flex;
-    flex-direction: column;
-  }
-  .explanation__num {
-    left: -12px;
-  }
-  .explanation__button {
-    width: 80%;
-    margin: 0 0 15px 25px;
-  }
-  /*-- RESTAURANT CARD--*/
-  .restaurant {
-    /*-- HEART--*/
-  }
-  .restaurant__wrap {
-    display: flex;
-    flex-direction: column;
-  }
-  .restaurant__title {
-    padding-left: 5%;
-  }
-  .restaurant__container {
-    flex-direction: column;
-    width: 100%;
-  }
-  .restaurant__card {
-    flex-direction: column;
-    width: 100%;
-  }
-  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
-    height: 150px;
-  }
-  .restaurant__card-icon {
-    right: 13.5%;
-    top: 76.8%;
-  }
+h1 {
+  font-family: "Shrikhand", sans serif;
 }
-/*-- TABLET--*/
-@media screen and (max-width: 992px) and (min-width: 767px) {
-  .header__logo {
-    height: 75px;
-    width: 40%;
-  }
-  /*-- BOOKING--*/
-  .booking__wrapper {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  .booking__info {
-    margin-left: 35px;
-  }
-  .booking .btn-gradient {
-    margin-right: 150px;
-  }
-  /*-- EXPLANATION--*/
-  .explanation__wrap {
-    margin-left: 18px;
-    flex-direction: column;
-  }
-  .explanation__num {
-    left: -11px;
-  }
-  .explanation__button {
-    width: 90%;
-    margin: 0 15px 20px 18px;
-  }
-  /*-- RESTAURANT CARD--*/
-  .restaurant {
-    /*-- HEART--*/
-  }
-  .restaurant__wrap {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .restaurant__container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-left: 5%;
-    gap: 5%;
-  }
-  .restaurant__title {
-    padding-left: 5%;
-  }
-  .restaurant__card {
-    width: 45%;
-  }
-  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
-    height: 200px;
-  }
-  .restaurant__card-icon {
-    top: 80%;
-    right: 8%;
-  }
+
+h2 {
+  font-family: "Roboto", sans serif;
 }
-@media screen and (min-width: 993px) {
-  .header__logo {
-    height: 100px;
-    width: 28%;
-  }
-  /*-- BOOKING--*/
-  .booking__wrapper {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  .booking__info {
-    margin-left: 40px;
-  }
-  .booking .btn-gradient {
-    margin: 30px 80px 25px 0;
-  }
-  /*-- EXPLANATION--*/
-  .explanation__wrap {
-    flex-direction: row;
-    margin-left: 30px;
-  }
-  .explanation__num {
-    margin-left: 55px;
-    left: -63px;
-  }
-  .explanation__button {
-    width: 29%;
-    padding: 20px;
-    border-radius: 25px;
-    margin-left: 25px;
-  }
-  .explanation__icon {
-    font-size: 18px;
-  }
-  /*-- RESTAURANT CARD--*/
-  .restaurant {
-    /*-- HEART--*/
-  }
-  .restaurant__container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: 20px;
-  }
-  .restaurant__title {
-    margin-left: 30px;
-  }
-  .restaurant__card {
-    margin-left: 30px;
-    margin-bottom: 20px;
-    width: 45%;
-  }
-  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
-    height: 150px;
-  }
-  .restaurant__card-img-1 {
-    -o-object-position: 0px -165px;
-       object-position: 0px -165px;
-  }
-  .restaurant__card-img-3 {
-    -o-object-position: 0px -175px;
-       object-position: 0px -175px;
-  }
-  .restaurant__card-img-4 {
-    -o-object-position: 0px -175px;
-       object-position: 0px -175px;
-  }
-  .restaurant__card-icon {
-    top: 76.8%;
-    right: 9.5%;
-  }
+
+h3 {
+  font-family: "Roboto", sans serif;
+  text-transform: uppercase;
+  font-size: 14px;
 }
-@media screen and (max-width: 767px) {
-  .header__return {
-    top: 4%;
-    left: 10%;
-  }
-  .menu__image {
-    width: 100%;
-    height: 200px;
-  }
-  .menu__title {
-    margin: 15px 0 0 45px;
-  }
-  /*-- HEART--*/
-  .menu__title-icon {
-    top: 1%;
-    left: 50%;
-  }
-  /*-- CARDS--*/
-  .choice__dish {
-    width: 90%;
-  }
-  .choice__dish:hover .menu__text {
-    width: 52%;
-  }
-  .choice .dish__description {
-    font-size: 14px;
-  }
+
+h4 {
+  font-family: "Roboto", sans serif;
 }
-@media screen and (max-width: 992px) and (min-width: 767px) {
-  .header__return {
-    top: 1%;
-    left: 5%;
-  }
-  .menu__image {
-    height: 200px;
-  }
-  .menu__title {
-    margin: 15px 0 0 40px;
-  }
-  /*-- HEART--*/
-  .menu__title-icon {
-    top: 2.2%;
-    left: 88%;
-  }
-  /*-- CARDS--*/
-  .choice__dish {
-    width: 90%;
-    margin-left: 40px;
-  }
-  .choice__description {
-    font-size: 14px;
-  }
-  .choice__dish:hover .dish__text {
-    width: 70%;
-  }
+
+p {
+  font-family: "Roboto", sans serif;
 }
+
+#exp {
+  font-family: "Roboto", sans serif;
+}
+
+.location {
+  font-family: "Roboto", sans serif;
+}
+
+.button {
+  font-family: "Roboto", sans serif;
+}
+
+.restaurant__card-label {
+  font-family: "Roboto", sans serif;
+}
+
+.footer__title {
+  font-family: "Shrikhand", sans serif;
+}
+
+.footer__nav {
+  font-family: "Roboto", sans serif;
+}
+
 @media screen and (min-width: 0px) {
   * {
     box-sizing: border-box;
@@ -697,8 +385,7 @@ i {
     height: 80px;
     overflow: hidden;
     box-shadow: 5px 5px 2px gray;
-    -webkit-animation: appear ease-in-out 0.8s;
-            animation: appear ease-in-out 0.8s;
+    animation: appear ease-in-out 0.8s;
   }
   .course__text {
     padding: 10px 0px;
@@ -780,47 +467,31 @@ i {
   }
   /* css for card ease in */
   #card-1 {
-    -webkit-animation-delay: 0.1s;
-            animation-delay: 0.1s;
+    animation-delay: 0.1s;
   }
   #card-2 {
-    -webkit-animation-delay: 0.2s;
-            animation-delay: 0.2s;
+    animation-delay: 0.2s;
   }
   #card-3 {
-    -webkit-animation-delay: 0.3s;
-            animation-delay: 0.3s;
+    animation-delay: 0.3s;
   }
   #card-4 {
-    -webkit-animation-delay: 0.4s;
-            animation-delay: 0.4s;
+    animation-delay: 0.4s;
   }
   #card-5 {
-    -webkit-animation-delay: 0.5s;
-            animation-delay: 0.5s;
+    animation-delay: 0.5s;
   }
   #card-6 {
-    -webkit-animation-delay: 0.6s;
-            animation-delay: 0.6s;
+    animation-delay: 0.6s;
   }
   #card-7 {
-    -webkit-animation-delay: 0.7s;
-            animation-delay: 0.7s;
+    animation-delay: 0.7s;
   }
   #card-8 {
-    -webkit-animation-delay: 0.8s;
-            animation-delay: 0.8s;
+    animation-delay: 0.8s;
   }
   #card-9 {
-    -webkit-animation-delay: 0.9s;
-            animation-delay: 0.9s;
-  }
-}
-@media screen and (min-width: 0px) and (min-width: 700px) {
-  .course__dishes {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
+    animation-delay: 0.9s;
   }
 }
 @media screen and (min-width: 300px) {
@@ -981,7 +652,7 @@ i {
     margin-bottom: 20px;
     border-radius: 15px;
     height: auto;
-    width: 36%;
+    width: 50%;
     box-shadow: 2px 5px 5px lightgray;
   }
   .restaurant__card-info {
@@ -1048,48 +719,256 @@ i {
     transition: opacity 3000ms;
   }
 }
-h1 {
-  font-family: "Shrikhand", sans serif;
+/*--PHONE LAYOUT--*/
+@media screen and (max-width: 767px) {
+  .header__logo {
+    height: 55px;
+    width: 50%;
+  }
+  /*-- BOOKING--*/
+  .booking__wrapper {
+    flex-direction: column;
+  }
+  .booking__info {
+    margin-left: 30px;
+  }
+  /*-- EXPLANATION--*/
+  .explanation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .explanation__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .explanation__num {
+    left: -12px;
+  }
+  .explanation__button {
+    width: 80%;
+    margin: 0 0 15px 25px;
+  }
+  /*-- RESTAURANT CARD--*/
+  .restaurant {
+    /*-- HEART--*/
+  }
+  .restaurant__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .restaurant__title {
+    padding-left: 5%;
+  }
+  .restaurant__container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .restaurant__card {
+    flex-direction: column;
+    width: 80%;
+  }
+  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
+    height: 150px;
+  }
+  .restaurant__card-icon {
+    right: 13.5%;
+    top: 76.8%;
+  }
 }
-
-h2 {
-  font-family: "Roboto", sans serif;
+/*-- TABLET--*/
+@media screen and (max-width: 992px) and (min-width: 767px) {
+  .header__logo {
+    height: 75px;
+    width: 40%;
+  }
+  /*-- BOOKING--*/
+  .booking__wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .booking__info {
+    margin-left: 35px;
+  }
+  .booking .btn-gradient {
+    margin-right: 150px;
+  }
+  /*-- EXPLANATION--*/
+  .explanation__wrap {
+    margin-left: 18px;
+    flex-direction: column;
+  }
+  .explanation__num {
+    left: -11px;
+  }
+  .explanation__button {
+    width: 90%;
+    margin: 0 15px 20px 18px;
+  }
+  /*-- RESTAURANT CARD--*/
+  .restaurant {
+    /*-- HEART--*/
+  }
+  .restaurant__wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .restaurant__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    gap: 5%;
+  }
+  .restaurant__title {
+    padding-left: 5%;
+  }
+  .restaurant__card {
+    width: 45%;
+  }
+  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
+    height: 200px;
+  }
+  .restaurant__card-icon {
+    top: 80%;
+    right: 8%;
+  }
 }
-
-h3 {
-  font-family: "Roboto", sans serif;
-  text-transform: uppercase;
-  font-size: 14px;
+@media screen and (min-width: 993px) {
+  .header__logo {
+    height: 100px;
+    width: 28%;
+  }
+  /*-- BOOKING--*/
+  .booking__wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .booking__info {
+    margin-left: 40px;
+  }
+  .booking .btn-gradient {
+    margin: 30px 80px 25px 0;
+  }
+  /*-- EXPLANATION--*/
+  .explanation__wrap {
+    flex-direction: row;
+    margin-left: 30px;
+  }
+  .explanation__num {
+    margin-left: 55px;
+    left: -63px;
+  }
+  .explanation__button {
+    width: 29%;
+    padding: 20px;
+    border-radius: 25px;
+    margin-left: 25px;
+  }
+  .explanation__icon {
+    font-size: 18px;
+  }
+  /*-- RESTAURANT CARD--*/
+  .restaurant {
+    /*-- HEART--*/
+  }
+  .restaurant__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .restaurant__title {
+    margin-left: 30px;
+  }
+  .restaurant__card {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 45%;
+  }
+  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
+    height: 150px;
+  }
+  .restaurant__card-img-1 {
+    -o-object-position: 0px -165px;
+       object-position: 0px -165px;
+  }
+  .restaurant__card-img-3 {
+    -o-object-position: 0px -175px;
+       object-position: 0px -175px;
+  }
+  .restaurant__card-img-4 {
+    -o-object-position: 0px -175px;
+       object-position: 0px -175px;
+  }
+  .restaurant__card-icon {
+    top: 76.8%;
+    right: 9.5%;
+  }
 }
-
-h4 {
-  font-family: "Roboto", sans serif;
+@media screen and (max-width: 767px) {
+  .header__return {
+    top: 4%;
+    left: 10%;
+  }
+  .menu__image {
+    width: 100%;
+    height: 200px;
+  }
+  .menu__title {
+    margin: 15px 0 0 20px;
+  }
+  .menu__choices-title {
+    margin: 4% 0.75% 4% 4%;
+  }
+  /*-- HEART--*/
+  .menu__title-icon {
+    top: 2%;
+    left: 85%;
+  }
+  /*-- CARDS--*/
+  .choice__dish {
+    width: 90%;
+  }
+  .choice__dish:hover .menu__text {
+    width: 52%;
+  }
+  .choice .dish__description {
+    font-size: 14px;
+  }
 }
-
-p {
-  font-family: "Roboto", sans serif;
-}
-
-#exp {
-  font-family: "Roboto", sans serif;
-}
-
-.location {
-  font-family: "Roboto", sans serif;
-}
-
-.button {
-  font-family: "Roboto", sans serif;
-}
-
-.restaurant__card-label {
-  font-family: "Roboto", sans serif;
-}
-
-.footer__title {
-  font-family: "Shrikhand", sans serif;
-}
-
-.footer__nav {
-  font-family: "Roboto", sans serif;
+/*-- IPAD--*/
+@media screen and (max-width: 992px) and (min-width: 767px) {
+  .header__return {
+    top: 3%;
+    left: 5%;
+  }
+  .menu__image {
+    height: 200px;
+  }
+  .menu__title {
+    margin: 15px 0 0 20px;
+  }
+  /*-- HEART--*/
+  .menu__title-icon {
+    top: 3%;
+    left: 92%;
+  }
+  /*-- CARDS--*/
+  .choice__dish {
+    width: 80%;
+    margin-left: 40px;
+  }
+  .choice__dishes {
+    flex-direction: column;
+  }
+  .choice__description {
+    font-size: 14px;
+  }
+  .choice__dish:hover .dish__text {
+    width: 70%;
+  }
 }

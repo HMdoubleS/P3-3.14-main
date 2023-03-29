@@ -11,14 +11,20 @@
     }
 
     .menu__title {
-        margin: 15px 0 0 45px;
+        margin: 15px 0 0 20px;
+    }
+
+    .menu__choices-title {
+
+        margin: 4% .75% 4% 4%;
+
     }
 
 /*-- HEART--*/
 
     .menu__title-icon {
-        top: 1%;
-        left: 50%;
+        top: 2%;
+        left: 85%;
     }
 
 /*-- CARDS--*/
@@ -40,11 +46,11 @@
         }
     }
 }
-
+/*-- IPAD--*/
 @media screen and (max-width: 992px) and (min-width: 767px) {
 
     .header__return {
-        top: 1%;
+        top: 3%;
         left: 5%;
     }
 
@@ -53,23 +59,26 @@
     }
     
     .menu__title {
-        margin: 15px 0 0 40px;
+        margin: 15px 0 0 20px;
     }
 
 /*-- HEART--*/
 
     .menu__title-icon {
-        top: 2.2%;
-        left: 88%;
+        top: 3%;
+        left: 92%;
     }
 
 /*-- CARDS--*/
     .choice {
         &__dish {
-            width: 90%;
+            width: 80%;
             margin-left: 40px;
         }
 
+        &__dishes {
+            flex-direction: column;
+        }
 
         &__description {
             font-size: 14px;
@@ -82,49 +91,3 @@
         }
     }
 }
-
-// @media screen and (min-width: 993px) {
-
-//     * {
-//         padding: 0;
-//         margin: 0;
-//     }
-
-//     .menu__image {
-//         height: 200px;
-//     }
-
-//     .menu__title {
-//         margin: 15px 0 0 50px;
-//     }
-
-// /*-- HEART--*/
-
-//     .menu__title-icon {
-//         top: 6.5%;
-//         left: 90%;
-//     }
-
-// /*-- CARDS--*/
-
-// .course__dishes {
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: space-around;
-//     }
-
-//     .course {
-//         width: 100%;
-//     }
-
-//     .course__dish:hover {
-//         .dish__text {
-//             width: 55%;
-//         }
-//     } 
-
-//     .dish__description {
-//         font-size: 14px;
-//     }
-
-// }
