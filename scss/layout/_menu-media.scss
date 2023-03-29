@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 767px) and (min-width: 0px) { 
 
     .header__return {
         top: 4%;
@@ -43,6 +43,12 @@
 
         .dish__description {
             font-size: 14px;
+        }
+        &__price span {
+            // positioned the price inside its closest positioned ancestor
+            position: absolute;
+            top: 70%;
+            left: 40%;
         }
     }
 }

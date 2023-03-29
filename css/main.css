@@ -417,7 +417,7 @@ p {
   .course__price span {
     position: absolute;
     top: 70%;
-    left: 50%;
+    left: 58%;
   }
   .course__checkholder {
     display: flex;
@@ -909,7 +909,7 @@ p {
     right: 9.5%;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 0px) {
   .header__return {
     top: 4%;
     left: 10%;
@@ -938,6 +938,11 @@ p {
   }
   .choice .dish__description {
     font-size: 14px;
+  }
+  .choice__price span {
+    position: absolute;
+    top: 70%;
+    left: 40%;
   }
 }
 /*-- IPAD--*/
