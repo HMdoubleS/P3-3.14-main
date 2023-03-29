@@ -1,6 +1,6 @@
 # Project-3
 
-The project can be viewed at https://hmdoubles.github.io/P3-3.14/index.html. 
+The project can be viewed at https://hmdoubles.github.io/P3-3.14-main/index.html. 
 
 Homepage:
 Display the location of restaurants. 
